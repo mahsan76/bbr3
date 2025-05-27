@@ -1,0 +1,537 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2025-04-04 16:32:28.147894 - bbr-v3:
+ Ping (ms) ICMP1 192.168.18.24:
+  Data points: 347
+  Mean:        455.311671 ms
+  Median:      461.000000 ms
+  Min:         3.900000 ms
+  Max:         1700.000000 ms
+  Std dev:     287.369198
+  Variance:    82581.055845
+ Ping (ms) ICMP2 netperf-eu.bufferbloat.net:
+  Data points: 347
+  Mean:        665.878963 ms
+  Median:      669.000000 ms
+  Min:         203.000000 ms
+  Max:         1883.000000 ms
+  Std dev:     297.108481
+  Variance:    88273.449327
+ Ping (ms) ICMP3 flent-fremont.bufferbloat.net:
+  Data points: 141
+  Mean:        2238.361702 ms
+  Median:      603.000000 ms
+  Min:         288.000000 ms
+  Max:         9999.000000 ms
+  Std dev:     2788.471015
+  Variance:    7775570.599668
+ Ping (ms) ICMP4 flent-eu.bufferbloat.net:
+  Data points: 346
+  Mean:        664.835260 ms
+  Median:      668.500000 ms
+  Min:         203.000000 ms
+  Max:         1847.000000 ms
+  Std dev:     297.925999
+  Variance:    88759.900606
+ Ping (ms) avg:
+  Data points: 352
+  Mean:        644.314664 ms
+  Median:      621.037341 ms
+  Min:         5.750000 ms
+  Max:         3386.659198 ms
+  Std dev:     408.848094
+  Variance:    167156.764243
+ TCP download BE1 192.168.18.24:
+  Data points: 364
+  Total:       741.296250 Mbits
+  Mean:        12.340000 Mbits/s
+  Median:      12.290000 Mbits/s
+  Min:         0.040000 Mbits/s
+  Max:         64.100000 Mbits/s
+  Std dev:     10.213373
+  Variance:    104.312989
+ TCP download BE2 netperf-eu.bufferbloat.net:
+  Data points: 364
+  Total:       397.373690 Mbits
+  Mean:        6.620000 Mbits/s
+  Median:      5.630000 Mbits/s
+  Min:         0.020000 Mbits/s
+  Max:         79.360000 Mbits/s
+  Std dev:     8.664734
+  Variance:    75.077613
+ TCP download BK1 flent-fremont.bufferbloat.net:
+  Data points: 364
+  Total:       11.639790 Mbits
+  Mean:        0.200000 Mbits/s
+  Median:      2.385000 Mbits/s
+  Min:         0.140000 Mbits/s
+  Max:         8.510000 Mbits/s
+  Std dev:     2.147099
+  Variance:    4.610036
+ TCP download BK2 flent-eu.bufferbloat.net:
+  Data points: 364
+  Total:       7.208940 Mbits
+  Mean:        0.130000 Mbits/s
+  Median:      1.070000 Mbits/s
+  Min:         0.040000 Mbits/s
+  Max:         2.660000 Mbits/s
+  Std dev:     0.708510
+  Variance:    0.501987
+ TCP download avg:
+  Data points: 364
+  Total:       598.458952 Mbits
+  Mean:        4.822500 Mbits/s
+  Median:      8.824319 Mbits/s
+  Min:         0.320146 Mbits/s
+  Max:         43.478338 Mbits/s
+  Std dev:     5.883849
+  Variance:    34.619683
+ TCP download fairness:
+  Data points: 364
+  Total:       49.208434 Idx
+  Mean:        0.474243 Idx
+  Median:      0.879606 Idx
+  Min:         0.275006 Idx
+  Max:         1.000000 Idx
+  Std dev:     0.194738
+  Variance:    0.037923
+ TCP download sum:
+  Data points: 364
+  Total:       1262.619622 Mbits
+  Mean:        19.290000 Mbits/s
+  Median:      18.973238 Mbits/s
+  Min:         0.640291 Mbits/s
+  Max:         86.956676 Mbits/s
+  Std dev:     11.574018
+  Variance:    133.957900
+ TCP upload BE1 192.168.18.24:
+  Data points: 364
+  Total:       76.836590 Mbits
+  Mean:        1.230000 Mbits/s
+  Median:      1.245000 Mbits/s
+  Min:         0.380000 Mbits/s
+  Max:         21.930000 Mbits/s
+  Std dev:     4.252820
+  Variance:    18.086477
+ TCP upload BE1 192.168.18.24::tcp_bbr_bw:
+  Data points: 262
+  Total:       158.048878 
+  Mean:        2.508174 
+  Median:      1.421656 
+  Min:         0.720840 
+  Max:         21.705304 
+  Std dev:     3.433878
+  Variance:    11.791515
+ TCP upload BE1 192.168.18.24::tcp_bbr_cwnd_gain:
+  Data points: 262
+  Total:       126.924585 
+  Mean:        2.033397 
+  Median:      2.000000 
+  Min:         1.000000 
+  Max:         2.250000 
+  Std dev:     0.327757
+  Variance:    0.107425
+ TCP upload BE1 192.168.18.24::tcp_bbr_mrtt:
+  Data points: 262
+  Total:       8237.938111 
+  Mean:        131.692271 
+  Median:      162.270000 
+  Min:         4.522000 
+  Max:         228.876000 
+  Std dev:     69.874766
+  Variance:    4882.482909
+ TCP upload BE1 192.168.18.24::tcp_bbr_pacing_gain:
+  Data points: 262
+  Total:       69.257838 
+  Mean:        1.108868 
+  Median:      1.000000 
+  Min:         0.906250 
+  Max:         2.773440 
+  Std dev:     0.172084
+  Variance:    0.029613
+ TCP upload BE1 192.168.18.24::tcp_cwnd:
+  Data points: 262
+  Total:       2763.998570 
+  Mean:        44.129771 
+  Median:      48.500000 
+  Min:         4.000000 
+  Max:         79.000000 
+  Std dev:     20.387242
+  Variance:    415.639648
+ TCP upload BE1 192.168.18.24::tcp_delivery_rate:
+  Data points: 262
+  Total:       80.894623 
+  Mean:        1.271205 
+  Median:      0.914648 
+  Min:         0.021248 
+  Max:         18.256888 
+  Std dev:     1.850055
+  Variance:    3.422702
+ TCP upload BE1 192.168.18.24::tcp_pacing_rate:
+  Data points: 262
+  Total:       184.812998 
+  Mean:        2.895677 
+  Median:      1.759296 
+  Min:         0.713632 
+  Max:         70.336024 
+  Std dev:     5.416481
+  Variance:    29.338268
+ TCP upload BE1 192.168.18.24::tcp_rtt:
+  Data points: 262
+  Total:       29522.568549 
+  Mean:        472.292286 
+  Median:      466.305500 
+  Min:         10.884000 
+  Max:         1051.120000 
+  Std dev:     201.159118
+  Variance:    40464.990829
+ TCP upload BE1 192.168.18.24::tcp_rtt_var:
+  Data points: 262
+  Total:       3937.885702 
+  Mean:        63.026504 
+  Median:      39.399000 
+  Min:         1.061000 
+  Max:         409.307000 
+  Std dev:     72.579769
+  Variance:    5267.822892
+ TCP upload BE2 netperf-eu.bufferbloat.net:
+  Data points: 364
+  Total:       878.647630 Mbits
+  Mean:        14.380000 Mbits/s
+  Median:      14.980000 Mbits/s
+  Min:         0.560000 Mbits/s
+  Max:         61.890000 Mbits/s
+  Std dev:     10.924275
+  Variance:    119.339785
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_bbr_bw:
+  Data points: 231
+  Total:       1247.257132 
+  Mean:        22.230910 
+  Median:      26.588720 
+  Min:         0.000008 
+  Max:         33.560848 
+  Std dev:     9.544059
+  Variance:    91.089054
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_bbr_cwnd_gain:
+  Data points: 231
+  Total:       107.752152 
+  Mean:        1.942641 
+  Median:      2.000000 
+  Min:         1.000000 
+  Max:         2.250000 
+  Std dev:     0.335023
+  Variance:    0.112240
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_bbr_mrtt:
+  Data points: 231
+  Total:       18605.308608 
+  Mean:        333.407571 
+  Median:      368.991000 
+  Min:         215.837000 
+  Max:         422.969000 
+  Std dev:     62.442395
+  Variance:    3899.052690
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_bbr_pacing_gain:
+  Data points: 231
+  Total:       74.316720 
+  Mean:        1.334619 
+  Median:      1.000000 
+  Min:         0.906250 
+  Max:         2.773440 
+  Std dev:     0.646050
+  Variance:    0.417381
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_cwnd:
+  Data points: 255
+  Total:       89448.684573 
+  Mean:        1469.007843 
+  Median:      1466.000000 
+  Min:         10.000000 
+  Max:         2775.000000 
+  Std dev:     831.995989
+  Variance:    692217.325429
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_delivery_rate:
+  Data points: 253
+  Total:       989.620158 
+  Mean:        16.393062 
+  Median:      15.221744 
+  Min:         0.121712 
+  Max:         31.941440 
+  Std dev:     8.428842
+  Variance:    71.045377
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_pacing_rate:
+  Data points: 254
+  Total:       1627.819190 
+  Mean:        26.869997 
+  Median:      29.243336 
+  Min:         1.314224 
+  Max:         41.531544 
+  Std dev:     9.041707
+  Variance:    81.752473
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_rtt:
+  Data points: 252
+  Total:       41601.536822 
+  Mean:        688.179599 
+  Median:      670.848000 
+  Min:         233.702000 
+  Max:         1698.630000 
+  Std dev:     220.215655
+  Variance:    48494.934694
+ TCP upload BE2 netperf-eu.bufferbloat.net::tcp_rtt_var:
+  Data points: 252
+  Total:       1637.408520 
+  Mean:        27.210417 
+  Median:      13.325000 
+  Min:         1.818000 
+  Max:         248.018000 
+  Std dev:     42.224735
+  Variance:    1782.928217
+ TCP upload BK1 flent-fremont.bufferbloat.net:
+  Data points: 364
+  Total:       6.794520 Mbits
+  Mean:        0.130000 Mbits/s
+  Median:      1.055000 Mbits/s
+  Min:         0.300000 Mbits/s
+  Max:         3.060000 Mbits/s
+  Std dev:     1.059082
+  Variance:    1.121656
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_bbr_bw:
+  Data points: 265
+  Total:       57.401017 
+  Mean:        0.904333 
+  Median:      0.927920 
+  Min:         0.000008 
+  Max:         0.954624 
+  Std dev:     0.115839
+  Variance:    0.013419
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_bbr_cwnd_gain:
+  Data points: 265
+  Total:       124.327184 
+  Mean:        1.966038 
+  Median:      2.000000 
+  Min:         1.000000 
+  Max:         2.000000 
+  Std dev:     0.181132
+  Variance:    0.032809
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_bbr_mrtt:
+  Data points: 265
+  Total:       65361.100383 
+  Mean:        1043.773898 
+  Median:      290.675000 
+  Min:         278.784000 
+  Max:         50554.100000 
+  Std dev:     6040.578007
+  Variance:    36488582.658213
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_bbr_pacing_gain:
+  Data points: 265
+  Total:       69.530931 
+  Mean:        1.100383 
+  Median:      1.000000 
+  Min:         1.000000 
+  Max:         2.773440 
+  Std dev:     0.409813
+  Variance:    0.167947
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_cwnd:
+  Data points: 266
+  Total:       1013.461221 
+  Mean:        15.936090 
+  Median:      1.000000 
+  Min:         1.000000 
+  Max:         123.000000 
+  Std dev:     26.387363
+  Variance:    696.292908
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_delivery_rate:
+  Data points: 263
+  Total:       49.459735 
+  Mean:        0.784652 
+  Median:      0.844456 
+  Min:         0.007512 
+  Max:         0.924192 
+  Std dev:     0.184041
+  Variance:    0.033871
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_pacing_rate:
+  Data points: 265
+  Total:       61.222896 
+  Mean:        0.965776 
+  Median:      0.918640 
+  Min:         0.720344 
+  Max:         2.274696 
+  Std dev:     0.254155
+  Variance:    0.064595
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_rtt:
+  Data points: 265
+  Total:       74237.383294 
+  Mean:        1185.612287 
+  Median:      365.622000 
+  Min:         283.395000 
+  Max:         46912.200000 
+  Std dev:     5633.864138
+  Variance:    31740425.125793
+ TCP upload BK1 flent-fremont.bufferbloat.net::tcp_rtt_var:
+  Data points: 265
+  Total:       16494.903072 
+  Mean:        266.647147 
+  Median:      33.775000 
+  Min:         2.991000 
+  Max:         24435.600000 
+  Std dev:     1732.080297
+  Variance:    3000102.156923
+ TCP upload BK2 flent-eu.bufferbloat.net:
+  Data points: 364
+  Total:       10.735020 Mbits
+  Mean:        0.200000 Mbits/s
+  Median:      1.450000 Mbits/s
+  Min:         0.390000 Mbits/s
+  Max:         4.190000 Mbits/s
+  Std dev:     1.340585
+  Variance:    1.797167
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_bbr_bw:
+  Data points: 267
+  Total:       92.853753 
+  Mean:        1.456886 
+  Median:      1.489352 
+  Min:         0.000008 
+  Max:         1.687616 
+  Std dev:     0.191582
+  Variance:    0.036704
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_bbr_cwnd_gain:
+  Data points: 267
+  Total:       125.586156 
+  Mean:        1.975655 
+  Median:      2.000000 
+  Min:         1.000000 
+  Max:         2.250000 
+  Std dev:     0.161532
+  Variance:    0.026093
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_bbr_mrtt:
+  Data points: 267
+  Total:       60564.665545 
+  Mean:        979.006592 
+  Median:      233.027000 
+  Min:         214.369000 
+  Max:         49819.700000 
+  Std dev:     6023.346783
+  Variance:    36280706.469541
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_bbr_pacing_gain:
+  Data points: 267
+  Total:       70.431435 
+  Mean:        1.108146 
+  Median:      1.000000 
+  Min:         1.000000 
+  Max:         2.773440 
+  Std dev:     0.421002
+  Variance:    0.177242
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_cwnd:
+  Data points: 269
+  Total:       1316.422601 
+  Mean:        20.553903 
+  Median:      1.000000 
+  Min:         1.000000 
+  Max:         163.000000 
+  Std dev:     35.579455
+  Variance:    1265.897652
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_delivery_rate:
+  Data points: 266
+  Total:       82.047255 
+  Mean:        1.291903 
+  Median:      1.411216 
+  Min:         0.010000 
+  Max:         1.687304 
+  Std dev:     0.328427
+  Variance:    0.107864
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_pacing_rate:
+  Data points: 267
+  Total:       99.236900 
+  Mean:        1.556573 
+  Median:      1.474456 
+  Min:         0.921968 
+  Max:         4.089320 
+  Std dev:     0.462613
+  Variance:    0.214011
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_rtt:
+  Data points: 267
+  Total:       66614.259217 
+  Mean:        1072.407903 
+  Median:      306.931000 
+  Min:         217.403000 
+  Max:         48640.500000 
+  Std dev:     5870.447824
+  Variance:    34462157.655937
+ TCP upload BK2 flent-eu.bufferbloat.net::tcp_rtt_var:
+  Data points: 267
+  Total:       6102.126900 
+  Mean:        97.158142 
+  Median:      23.874000 
+  Min:         1.205000 
+  Max:         3256.940000 
+  Std dev:     414.531045
+  Variance:    171835.987011
+ TCP upload avg:
+  Data points: 364
+  Total:       697.799985 Mbits
+  Mean:        3.985000 Mbits/s
+  Median:      11.157761 Mbits/s
+  Min:         0.485817 Mbits/s
+  Max:         59.257446 Mbits/s
+  Std dev:     8.207777
+  Variance:    67.367599
+ TCP upload fairness:
+  Data points: 364
+  Total:       45.264800 Idx
+  Mean:        0.304870 Idx
+  Median:      1.000000 Idx
+  Min:         0.501949 Idx
+  Max:         1.000000 Idx
+  Std dev:     0.212138
+  Variance:    0.045003
+ TCP upload sum:
+  Data points: 364
+  Total:       945.890488 Mbits
+  Mean:        15.940000 Mbits/s
+  Median:      16.549717 Mbits/s
+  Min:         0.485817 Mbits/s
+  Max:         59.257446 Mbits/s
+  Std dev:     8.514163
+  Variance:    72.490979
+ qdisc_stats_localhost::backlog_bytes:
+  Data points: 350
+  Total:       388824.050391 
+  Mean:        5326.902857 
+  Median:      5864.000000 
+  Min:         0.000000 
+  Max:         20620.000000 
+  Std dev:     4602.499235
+  Variance:    21182999.207706
+ qdisc_stats_localhost::backlog_pkts:
+  Data points: 350
+  Total:       128.673495 
+  Mean:        1.762857 
+  Median:      2.000000 
+  Min:         0.000000 
+  Max:         7.000000 
+  Std dev:     1.528133
+  Variance:    2.335192
+ qdisc_stats_localhost::backlog_requeues:
+  No data.
+ qdisc_stats_localhost::dropped:
+  No data.
+ qdisc_stats_localhost::overlimits:
+  No data.
+ qdisc_stats_localhost::requeues:
+  No data.
+ qdisc_stats_localhost::sent_bytes:
+  Data points: 350
+  Total:       377770477917.244019 
+  Mean:        5189309571.371428 
+  Median:      5185529408.000000 
+  Min:         5129025719.000000 
+  Max:         5260357753.000000 
+  Std dev:     45331109.110035
+  Variance:    2054909453145888.250000
+ qdisc_stats_localhost::sent_pkts:
+  Data points: 350
+  Total:       258175475.768166 
+  Mean:        3546504.888571 
+  Median:      3546661.500000 
+  Min:         3484239.000000 
+  Max:         3612512.000000 
+  Std dev:     43521.153407
+  Variance:    1894090793.853298
